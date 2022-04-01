@@ -1,3 +1,5 @@
+# Questionnaire for Lesson 2
+
 **Q: Can we always use a random sample for a validation set? Why or why not?**
 
 **A:** We can, but in some cases, we shouldn't. One example of this is time series data, where we might be better off making sure the time period of the training set comes before that of the validation set. This way, the model does not see into the future as it is trained.
