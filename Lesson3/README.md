@@ -172,7 +172,12 @@ rank = len(shape)
 
 **Q: Create a 3×3 tensor or array containing the numbers from 1 to 9. Double it. Select the bottom-right four numbers.**
 
-**A:** -
+**A:**
+```
+a = tensor([[1,2,3],[4,5,6],[7,8,9]])
+a = a * 2
+a[1:3,1:3]
+```
 
 
 **Q: What is broadcasting?**
