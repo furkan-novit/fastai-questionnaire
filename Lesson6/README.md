@@ -222,7 +222,7 @@ print(dot)
 
 **A:**
 ```
-Class Person():
+class Person():
     def __init__(self, name):
         self.name =name
 
